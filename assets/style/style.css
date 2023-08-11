@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    background-color: skyblue;
+    height: 60px;
+}
+
+.logo{
+    margin-left: 20px;
+    font-size: 2rem;
+    margin-top: 4px;
+}
+
+
+.nav_menu{
+    display: flex;
+    list-style: none;
+    margin-right: 20px;
+    font-size: 1.2rem;
+    margin: 4px;
+}
+
+.nav_menu li:hover{
+    text-decoration: underline;
+    background-color: #6ac4e2;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.nav_menu li{
+   padding: 10px;
+}
+
+/* Body */
+
+.main-info{   
+    background-color: rgb(98, 145, 164);
+    display: flex;  
+}
+
+.carousel{
+    padding: 5.5px;
+    width: 90%;
+    height: 400px;
+}
+
+.card{
+    background-color: rgb(98, 145, 164); 
+    border: none;
+    width: 20%;
+    padding: 5.5px;
+}
+
+
+
+
+/* Footer */
+
+.footer{
+    background-color: skyblue;
+    display: flex;
+    justify-content: center;
+    
+}
